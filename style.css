@@ -6,12 +6,61 @@
 /* GLOBAL STYLES (mobile first/small) */
 /* MEDIA QUERIES (medium and up) */
 
+body {
+    font-family: 'Inter';
+    background-color: #6B8FE7;
+    max-width: 450px;
+    margin: auto;
+}
+
+.main-container {
+    padding-top: 10px;
+    background-color: #484FB7;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #FFFFFF;
+}
+
+
+nav{
+    background-color: #E9BB57;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+nav a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border-radius: 1px;
+    padding: 7px;
+    margin: 5px 7px;
+    font-weight: 600;
+}
+
+nav h3{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-style: italic;
+}
+
 h1, h2 {
     font-family: 'Kavoon';
+    color: #FFFFFF;
 }
 
 h1 {
     font-size: 3em;
+    margin: 5px 0px;
 }
 
 nav h2 {
@@ -20,12 +69,94 @@ nav h2 {
 
 h2 {
     font-size: 2em;
+    margin: 0px;
 }
 
 h3 {
     font-size: 1.5em;
+    color: #E9BB57;
+    margin: 5px 0px;
 }
 
 h4 {
     font-size: 1.15em;
+    margin: 0px;
+}
+
+.services-explained {
+    flex-direction: column;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+.services-explained > h4{
+    color: #484FB7;
+}
+
+.our-services {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.why {
+    padding: 10px;
+    background-color: #D9526F;
+}
+
+.why-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns = 4 squares */
+    text-align: center;
+}
+
+.why-list li {
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.personalized-approach {
+    background-color: #4CA7C0;
+}
+
+.proven-results {
+    background-color: #6B8FE7;
+}
+
+.supportive-environment {
+    background-color: #E9BB57;
+}
+
+.flexible-options {
+    background-color: #FFFFFF;
+}
+
+.first-step {
+    background-color: #D9526F;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.first-step button {
+    background-color: #FFFFFF;
+    border: none;
+    padding: 20px 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    font-weight: bolder;
+    box-shadow: 3px 3px 3px black;
+    font-family: 'Inter';
 }
