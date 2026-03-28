@@ -160,3 +160,9 @@ p {
     box-shadow: 3px 3px 3px black;
     font-family: 'Inter';
 }
+
+.services {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
