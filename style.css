@@ -167,8 +167,12 @@ p {
     margin: 10px auto;
 }
 
+.pricing h2 {
+    margin: 10px;
+}
+
 .pricing h3 {
-    margin: 10px 0px;
+    margin: 10px;
 }
 
 .pricing table {
