@@ -162,7 +162,25 @@ p {
 }
 
 .services {
-    width: 100%;
+    width: 51%;
     border-collapse: collapse;
     margin: 10px auto;
+}
+
+.pricing h3 {
+    margin: 10px 0px;
+}
+
+.pricing table {
+    background-color: #E9BB57;
+}
+
+.pricing td{
+    background-color: #FFFFFF;
+    padding: 10px;
+    border: 2px solid #E9BB57;
+}
+
+.pricing th{
+    padding: 10px;
 }
